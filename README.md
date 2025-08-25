@@ -57,23 +57,31 @@ This C program manages a list of students and their percentages using a singly l
    - **On Windows:**  
      You can use [MinGW](http://www.mingw.org/) or [WSL](https://docs.microsoft.com/en-us/windows/wsl/) for GCC and Make.
 
-   Or compile manually:
-   ```
-   gcc -c student_data_base.c
-   gcc -c main_student_data_base.c
-   gcc student_data_base.o main_student_data_base.o -o SLL.exe
-   ```
+  ```powershell
+  # Clean old build files
+  make -B -f SLL_makefile.txt clean
+
+  # Build the project
+  make -B -f SLL_makefile.txt all
+
+  # Run the program
+  make -B -f SLL_makefile.txt run
+    Or compile manually:
+    ```
+    gcc -c student_data_base.c
+    gcc -c main_student_data_base.c
+    gcc student_data_base.o main_student_data_base.o -o SLL.exe
 
 ### Running the Program
 
-On Windows:
-```
-SLL.exe
-```
-On Linux:
-```
-./SLL
-```
+    On Windows:
+    ```
+    SLL.exe
+    ```
+    On Linux:
+    ```
+    ./SLL
+    ```
 
 ## Usage
 
