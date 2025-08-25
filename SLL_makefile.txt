@@ -1,0 +1,16 @@
+all: SLL.exe
+
+SLL.exe: student_data_base.o main_student_data_base.o
+	gcc student_data_base.o main_student_data_base.o -o SLL.exe
+
+student_data_base.o: student_data_base.c header.h
+	gcc -c student_data_base.c
+
+main_student_data_base.o: main_student_data_base.c header.h
+	gcc -c main_student_data_base.c
+
+clean:
+	del /Q *.o SLL.exe
+
+run: SLL.exe
+	.\SLL.exe
