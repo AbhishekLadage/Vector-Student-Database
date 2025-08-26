@@ -1,11 +1,7 @@
-# Student Database Using Data Structure & Algorithm
-This program makes a list of students with their percentage using single linked list and perform further operations on that list like saving into file, reading a file, deleting node etc.
-if make command is not executing on your system then use following commands:
-sudo apt update , 
-sudo apt install make , 
-make --version , 
-# Student Database (Single Linked List)
+# Student Database Using Data Structures & Algorithms
 
+This project implements a **Student Database Management System** in C using a **singly linked list**.  
+The program allows you to manage student records (name, percentage, etc.) and perform various operations such as:
 This C program manages a list of students and their percentages using a singly linked list. You can add, delete, modify, sort, and save student records to a file.
 
 ## Features
