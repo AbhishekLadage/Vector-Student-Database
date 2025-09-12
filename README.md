@@ -94,3 +94,26 @@ Follow the on-screen menu to add, delete, modify, sort, or save student records.
 ## License
 
 This project is for educational purposes.
+
+---
+
+## 📌 How to Compile, Run, and Clean on Ubuntu/Linux
+
+### Compile
+```bash
+make
+```
+
+### Run
+```bash
+./SLL
+```
+or using make:
+```bash
+make run
+```
+
+### Clean
+```bash
+make clean
+```
