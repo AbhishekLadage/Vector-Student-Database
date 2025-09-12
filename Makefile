@@ -10,7 +10,7 @@ main_student_data_base.o: main_student_data_base.c header.h
 	gcc -c main_student_data_base.c
 
 clean:
-	del /Q *.o SLL.exe
+	rm -f *.o SLL.exe
 
 run: SLL.exe
 	.\SLL.exe
